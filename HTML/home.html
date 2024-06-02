@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WatcHGoods</title>
+    <link rel="stylesheet" href="/CSS/home.css" />
+    <link rel="shortcut icon" href="/Photos/icon.jpg">
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <header>
+        <a href="/HTML/home.html" class="logo-container"><h2 class="logo">WatcH<span class="logospan">Goods.</span></h2>
+          </a> 
+  <div class="menu-toggle">
+    <div class="hamburger"></div>
+  </div>
+      <nav class="navigation" id="topnav">     
+        <a href="/HTML/home.html">Home</a>
+        <a href="/HTML/product.html">Product</a>
+        <a href="/HTML/about.html">About Us</a>
+        <a href="/HTML/locations.html">Locations</a>
+        <a href="/HTML/contact.html">Contact Us</a>
+         <button class="btnLogin-popup">Login</button>
+      </nav>
+    </header>
+
+   
+    <div class="wrapper">
+      <span class="icon-close">
+        <ion-icon name="close-outline"></ion-icon
+      ></span>
+      <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#" id="form-register">
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail-unread"></ion-icon></span>
+            <input type="email" id="useremail" required />
+            <label for="useremail">Email</label>
+          </div>
+
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="Password" required />
+            <label>Password</label>
+          </div>
+
+          <div class="remember-forgot">
+            <label><input type="checkbox" />Remember Me</label>
+            <a href="#">Forgot Password?</a>
+          </div>
+
+          <button type="submit" class="btn">Login</button>
+          <div class="login-register">
+            <p>
+              Don't Have an Account ? 
+              <a href="#" class="register-link">Register</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      
+      <div class="form-box register">
+        <h2>Registration</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><ion-icon name="person"></ion-icon></ion-icon></span>
+            <input type="text" required />
+            <label>Username</label>
+          </div>
+          
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail-unread"></ion-icon></span>
+            <input type="email" required />
+            <label>Email</label>
+          </div>
+
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="Password" required />
+            <label>Password</label>
+          </div>
+
+          <div class="remember-forgot">
+            <label><input type="checkbox" />I agree to the Terms & Conditions</label>
+            
+          </div>
+
+          <button type="submit" class="btn">Register</button>
+          <div class="login-register">
+            <p>
+              Already Have an Account? 
+              <a href="#" class="login-link">Login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+     
+    </div>
+
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Timeless Elegance at <span>Your Fingertips</span></h1>
+        <p>
+          Discover the art of timekeeping with our exquisite Watches
+        </p>
+        <a href="/HTML/product.html" class="cta">All Product</a>
+        <a href="/HTML/productPage1.html" class="cta">Rolex</a>
+        <a href="/HTML/productPage2.html" class="cta">Fossil</a>
+        <a href="/HTML/productPage3.html" class="cta">Citizen</a>
+        
+          <div class="services">
+            <div class="card">
+              <i class="icon fa fa-globe"></i>
+              <h2>
+                Quality
+              </h2>
+              <div class="content">
+                <p>
+                  WatchGoods offers high-quality watches from renowned brands, ensuring durability, precision, and craftsmanship. WatchGoods curates its collection from renowned and reputable watch brands known for their commitment to quality craftsmanship. </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <i class="icon fa fa-edit"></i>
+              <h2>
+                Services
+              </h2>
+              <div class="content">
+                <p>
+                  WatchGoods prioritizes responsive and helpful customer support. They have a dedicated team that promptly addresses customer inquiries, provides assistance with product selection, and resolves any issues or concerns that may arise during the purchasing process.</p>
+
+              </div>
+            </div>
+
+            <div class="card">
+              <i class="icon fa fa-briefcase"></i>
+              <h2>
+                Authenticity
+              </h2>
+              <div class="content">
+                <p>
+                  WatchGoods is an authorized dealer of the watch brands they offer. This means that they source their watches directly from the brands or authorized distributors, ensuring that every watch sold on their website is authentic and genuine.
+
+                </p>
+              </div>
+            </div>
+          </div>
+      </main>
+    </section>
+    <script src="/JS/home.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    
+      <script>
+        feather.replace();
+      </script>
+  </body>
+</html>
