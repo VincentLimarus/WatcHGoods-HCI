@@ -5,3 +5,8 @@ WatcHGoods is home to the greatest collection of used luxury watches, all certif
 **Main Service**
 ---
 This website consists of five main services: Home, Products, About Us, Locations, and Contact Us, and it is the inaugural project from the Human-Computer Interaction (HCI) course.
+
+**Static Preview**
+---
+Static: https://sendevwatchgoods-vincent-oliver-limarus-projects.vercel.app/HTML/home.html
+
