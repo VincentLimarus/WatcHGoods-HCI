@@ -6,7 +6,22 @@ In response to the digital transformation, WatcHGoods plans to establish a stron
 
 **Main Services**
 ---
-This website consists of five main services: Home, Products, About Us, Locations, and Contact Us, and it is the inaugural project from the Human-Computer Interaction (HCI) course.
+WatcHGoods' website will deliver five core services that embody its commitment to customer satisfaction and service excellence:
+
+**Home**: A welcoming page offering a snapshot of the latest and most sought-after watches, along with featured collections and promotions.
+
+**Products**: A comprehensive catalog of all available luxury watches, complete with detailed descriptions, images, and the ability to filter based on brand, price, and features.
+
+**About Us**: A section dedicated to sharing WatcHGoods' history, values, and dedication to delivering high-quality, authentic luxury watches.
+
+**Locations**: Information about the physical locations where customers can visit WatcHGoods stores, offering in-store consultations and services.
+
+**Contact Us**: A communication hub allowing users to reach out for inquiries, assistance, and further information through multiple channels.
+
+This project marks the beginning of WatcHGoods' journey into digital business and e-commerce, embodying the intersection of luxury and technology. As the inaugural project from the Human-Computer Interaction (HCI) course, WatcHGoods showcases the application of modern UI/UX design principles to create a sophisticated and engaging user experience.
+
+
+
 
 **Static Preview**
 ---
